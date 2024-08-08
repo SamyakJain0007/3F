@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+.heading{
+    text-align: center;
+    color:chocolate;
+}
+tr{
+    border: 2px solid black;
+    background-color:bisque ;
+    text-align: center;
+}
+th{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+    padding: 10px;
+}
+.first{
+    text-align: center;
+    /* border: 2px solid black; */
+    padding-left: 65px;
+}
