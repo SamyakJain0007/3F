@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="BMI calculator.css">
+</head>
+<body>
+    <div class="BMIcalc">
+
+        <input id="result" type="text" class="display">
+        <div class="gender">
+            <input class="radio1" type="radio" name="G">Male
+            <input class="radio2" type="radio" name="G">Female
+        </div>
+
+        <div class="buttons">
+            <label for="weight">Age(1 year or above)</label>
+            <input id="weight" type="numbers">
+            <label  for="height">Height</label>
+            <input id="height" type="number">
+            <label  for="">Weight</label>
+            <input id="weight" type="number">
+
+        </div>
+
+        <div class="calculate">
+            <button onclick="calculateBMI()">Calculate</button>
+        </div>
+        <h4>The body mass index (BMI) calculator estimates the amount of body fat a person has in relation to age, height, and weight.</h4>
+    </div>
+    <script src="BMI calculator.js"></script>
+</body>
+</html>
